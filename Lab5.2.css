@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, rgb(255,110,134),rgb(255,235,146));
+
+}
+#container {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px;
+    width: 280px;
+    box-shadow: 0 0 3px darkgrey;
+    
+}
+input{
+    width: 270px;
+    margin: 0;
+}
+h1{
+    background-color: darkblue;
+    color: rgb(255, 254, 238);
+    margin: 0;
+}
+.complete {
+    color: cadetblue;
+    text-decoration: line-through;
+}
+
+.done {
+    text-decoration: line-through;
+}
