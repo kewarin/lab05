@@ -1,5 +1,5 @@
-const input = document.querySelector('input');
-input.addEventListener('keyup',Addtodo);
+const input = document.querySelector('#myInput');
+input.addEventListener('keyup',Addtodo());
 
 var list = document.querySelector('div');
 
